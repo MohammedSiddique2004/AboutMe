@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="background-color:grey;">
+    <ul>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+    <p id="display"></p>
+    <h1 id="color" onclick="aboutmeColor()">About Me</h1>
+    <p id="size" onmouseover="textRolled()">My name is Mohammed Siddique. I am currently going to become a senior in the next year of school in Stuyvesant High School. If you want to know more about me, check the links above or read below!</p>
+    <form>
+    <input type="button" value="???" onclick="getFormvalue()"> 
+    </form>   
+    <script>
+      function getFormvalue() {
+        document.getElementById("display").innerHTML = "Surprise!";
+      }
+      function aboutmeColor() {document.getElementById("color").style.color = "red"}
+      function textRolled() {document.getElementById("size").style.fontSize = "x-large"}
+    </script>
+
+    <div class="container">
+    </div>
+
+    <div class="row">
+      <div class="col" id="red">
+        <h2>Fun Facts</h2>
+      <p>I know all the countries and their capitals.</p>
+      <p>I can do a frontflip and a backflip on a trampoline.</p>
+      </div>
+      <div class="col" id="blue">
+        <h3>Shows</h3>
+        <p>Gravity Falls</p>
+        <p>Avatar: The Last Airbender</p>
+        <p>Game of Thrones</p>
+        </div>
+      <div class="col" id="green">
+        <h4>Hobbies</h4>
+        <p>Binging Series</p>
+        <p>Listening to Music</p>
+        <p>Going Outside</p>
+        </div>
+    </div>
+
+    <!-- <h1>About Me</h1>
+    <ul>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+    <p>My name is Mohammed Siddique. I am currently going to become a senior in the next year of school in Stuyvesant High School. If you want to know more about me, check the links above or read below!</p>
+  <div class="myDiv">
+  <h2>Hobbies</h2>
+  <p>These are some hobbies.</p>
+  </div>    
+  <div2 class="myDiv">
+    <h3>Fun Facts</h3>
+    <p>These are some facts about me.</p>
+    </div2> -->
+  </body>
+</html>
+
